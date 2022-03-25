@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url('background.png');
+    background-position: center;
+    background-size: cover;
+    padding: 0% 5%;
+    box-sizing: border-box;
+    position: relative;/*original position*/
+}
+
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 160px;
+cursor: pointer;
+}
+.cart{
+    width: 50px;
+    cursor: pointer;
+
+}
+
+nav{
+    flex: 1;
+    /* If an element has flex: 1, this means the size of all of the other elements  will have the same width as their content, but the element with flex: 
+    1 will have the remaining full space given to it
+    
+    This applies if the parent element has
+    display: flex; */
+    padding-left: 82px;
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+  
+    margin: 0px 20px;
+}
+nav ul li a{
+    color: rgb(248, 64, 94);
+    text-decoration: none;
+    font-size: 29px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content h1{
+font-size: 60px;
+font-weight: 200;
+margin-top: 24px;
+margin-bottom: 15px;
+color: black;
+}
+
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+    }
+
+    .content {
+     margin-left: 10%;
+     margin-top: 10%;
+       
+        }
+
+        .content  a{
+            display: inline-block;
+            background: linear-gradient(45deg,#87adfe,#ff77cd);
+            box-sizing: border-box;
+            padding:10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+           
+        }
+.icons{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 131px;
+}
+
+
+.icons img{
+    width: 40px;
+    margin-right: 25px;
+}
+.image{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+
+.social-links{
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+    transform: rotate(-90deg);
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #6a7199;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+        The box-sizing Property
+Defines how the width and height of an element are calculated: should they include padding and borders, or not.
+box-sizing: border-box:
+Width and height apply to all parts of the element: content, padding and borders: */
